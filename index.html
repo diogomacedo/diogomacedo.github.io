@@ -34,8 +34,9 @@
       height: 15em;
       width: 15em;
     }
-    .tecnologias-badges {
-      margin-top: 11em;
+    .margem-inicial {
+      margin-top: 12em;
+      margin-bottom: 2em;
     }
     .certificados {
       display: grid;
@@ -53,6 +54,20 @@
       max-width: 430px;
       min-width: 430px;
       width: 430px;
+    }
+    .logo-linkedin, .logo-twitter {
+      background-image: url('./assets/images/redes-sociais-logo.png');
+      background-size: 138px;
+      height: 64px;
+      width: 64px;
+    }
+    .logo-linkedin {
+      background-position-x: 0px;
+      background-position-y: 0px;
+    }
+    .logo-twitter {
+      background-position-x: 64px;
+      background-position-y: 64px;
     }
   </style>
 
@@ -88,7 +103,17 @@
     </div>
   </section>
 
-  <section class="d-flex justify-content-center tecnologias-badges vw-100">
+  <section class="d-flex py-5 my-5"></section>
+
+  <section class="d-flex flex-column justify-content-center align-items-center my-5">
+    <div class="d-flex">
+      <a href="https://github.com/diogomacedo"><img src="./assets/images/github-logo.png" /></a>
+      <a href="http://www.linkedin.com/in/eudiogomacedo"><div class="logo-linkedin mx-3"></div></a>
+      <a href="https://twitter.com/soudiogomacedo"><div class="logo-twitter"></div></a>
+    </div>
+  </section>
+
+  <section class="d-flex justify-content-center vw-100 mt-5">
     <div class="d-flex flex-column align-items-center vw-100">
       <h4>Principais Tecnologias</h4>
       <div class="d-flex">
